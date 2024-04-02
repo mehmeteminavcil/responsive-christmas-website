@@ -31,10 +31,6 @@ const Header = () => {
     document.documentElement.dataset.theme = theme ? "light" : "dark";
   }, [theme]);
 
-  useEffect(() => {
-    toggleTheme();
-  }, []);
-
   return (
     <div>
       {!isNavOpen ? (
