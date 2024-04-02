@@ -9,6 +9,8 @@ export default {
         textlight: "hsl(var(--color-text-light)/<alpha-value>)",
         bkgred: "hsl(var(--color-bkg-red)/<alpha-value>)",
         bkg: "hsl(var(--color-bkg)/<alpha-value>)",
+        bkgCard: "hsl(var(--color-bkgCard)/<alpha-value>)",
+        bkgContainerRed: "hsl(var(--color-bkgContainerRed)/<alpha-value>)",
       },
       fontSize: {
         "h1-d": "36px", // 2.25rem
